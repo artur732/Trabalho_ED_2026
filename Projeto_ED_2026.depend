@@ -1,0 +1,368 @@
+# depslib dependency file v1.0
+1775659820 source:d:\ed\projeto_ed_2026\etl.c
+	"etl.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1775663398 source:d:\ed\projeto_ed_2026\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fila.h"
+	"pilha.h"
+	"etl.h"
+
+1775661028 d:\ed\projeto_ed_2026\fila.h
+	"stringers.h"
+	<stdbool.h>
+
+1775660962 d:\ed\projeto_ed_2026\stringers.h
+	<stdlib.h>
+
+1775663842 source:d:\ed\projeto_ed_2026\stringers.c
+	<string.h>
+	"stringers.h"
+
+1775663974 source:d:\ed\projeto_ed_2026\fila.c
+	"fila.h"
+	<stdbool.h>
+	<stdlib.h>
+
+1775661092 source:d:\ed\projeto_ed_2026\pilha.c
+	"pilha.h"
+
+1775661096 d:\ed\projeto_ed_2026\pilha.h
+	"stringers.h"
+	<stdbool.h>
+
+1775678554 source:f:\ed\projeto_ed_2026\etl.c
+	"etl.h"
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1775677670 source:f:\ed\projeto_ed_2026\fila.c
+	"fila.h"
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+
+1775674966 f:\ed\projeto_ed_2026\fila.h
+	"stringers.h"
+	<stdbool.h>
+
+1775674096 f:\ed\projeto_ed_2026\stringers.h
+	<stdlib.h>
+
+1775677708 source:f:\ed\projeto_ed_2026\pilha.c
+	"pilha.h"
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+
+1775676078 f:\ed\projeto_ed_2026\pilha.h
+	"stringers.h"
+	<stdbool.h>
+
+1775674102 source:f:\ed\projeto_ed_2026\stringers.c
+	<string.h>
+	"stringers.h"
+
+1775657622 d:\ed\projeto_ed_2026\etl.h
+	<stdbool.h>
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+
+1775664222 source:e:\ed\projeto_ed_2026\etl.c
+	"etl.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1775657622 e:\ed\projeto_ed_2026\etl.h
+	<stdbool.h>
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+
+1775660962 e:\ed\projeto_ed_2026\stringers.h
+	<stdlib.h>
+
+1775661028 e:\ed\projeto_ed_2026\fila.h
+	"stringers.h"
+	<stdbool.h>
+
+1775661096 e:\ed\projeto_ed_2026\pilha.h
+	"stringers.h"
+	<stdbool.h>
+
+1775663974 source:e:\ed\projeto_ed_2026\fila.c
+	"fila.h"
+	<stdbool.h>
+	<stdlib.h>
+
+1775664262 source:e:\ed\projeto_ed_2026\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fila.h"
+	"pilha.h"
+	"etl.h"
+
+1775661092 source:e:\ed\projeto_ed_2026\pilha.c
+	"pilha.h"
+
+1775664184 source:e:\ed\projeto_ed_2026\stringers.c
+	<string.h>
+	"stringers.h"
+
+1775678158 source:f:\ed\projeto_ed_2026\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fila.h"
+	"pilha.h"
+	"etl.h"
+
+1775676356 f:\ed\projeto_ed_2026\etl.h
+	<stdbool.h>
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+
+1775678554 source:d:\ed_i\projeto_ed_2026\etl.c
+	"etl.h"
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1775676356 d:\ed_i\projeto_ed_2026\etl.h
+	<stdbool.h>
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+
+1775674096 d:\ed_i\projeto_ed_2026\stringers.h
+	<stdlib.h>
+
+1775674966 d:\ed_i\projeto_ed_2026\fila.h
+	"stringers.h"
+	<stdbool.h>
+
+1775676078 d:\ed_i\projeto_ed_2026\pilha.h
+	"stringers.h"
+	<stdbool.h>
+
+1775677670 source:d:\ed_i\projeto_ed_2026\fila.c
+	"fila.h"
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+
+1776370052 source:d:\ed_i\projeto_ed_2026\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fila.h"
+	"pilha.h"
+	"etl.h"
+	"hashishi.h"
+	"fila_dengao_negado.h"
+	"kk.h"
+
+1775677708 source:d:\ed_i\projeto_ed_2026\pilha.c
+	"pilha.h"
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+
+1775758986 source:d:\ed_i\projeto_ed_2026\stringers.c
+	<string.h>
+	"stringers.h"
+
+1775678554 source:e:\ed_i\projeto_ed_2026\etl.c
+	"etl.h"
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1775676356 e:\ed_i\projeto_ed_2026\etl.h
+	<stdbool.h>
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+
+1775674096 e:\ed_i\projeto_ed_2026\stringers.h
+	<stdlib.h>
+
+1776396898 e:\ed_i\projeto_ed_2026\fila.h
+	"stringers.h"
+	<stdbool.h>
+
+1775676078 e:\ed_i\projeto_ed_2026\pilha.h
+	"stringers.h"
+	<stdbool.h>
+
+1775677670 source:e:\ed_i\projeto_ed_2026\fila.c
+	"fila.h"
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+
+1776397526 source:e:\ed_i\projeto_ed_2026\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fila.h"
+	"pilha.h"
+	"etl.h"
+	"hashishi.h"
+	"fila_dengao_negado.h"
+
+1775677708 source:e:\ed_i\projeto_ed_2026\pilha.c
+	"pilha.h"
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+
+1775758986 source:e:\ed_i\projeto_ed_2026\stringers.c
+	<string.h>
+	"stringers.h"
+
+1776397470 source:e:\ed_i\projeto_ed_2026\hashishi.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	"hashishi.h"
+	"fila.h"
+	"stringers.h"
+	"fila_dengao_negado.h"
+
+1776370248 source:e:\ed_i\projeto_ed_2026\fila_dengao_negado.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1776396910 e:\ed_i\projeto_ed_2026\hashishi.h
+	<stdbool.h>
+	"fila.h"
+	"fila_dengao_negado.h"
+
+1776396688 e:\ed_i\projeto_ed_2026\kk.h
+
+1776396882 e:\ed_i\projeto_ed_2026\fila_dengao_negado.h
+
+1776370312 source:d:\ed_i\projeto_ed_2026\hashishi.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	"hashishi.h"
+	"fila.h"
+	"stringers.h"
+	"kk.h"
+	"fila_dengao_negado.h"
+
+1776369902 d:\ed_i\projeto_ed_2026\hashishi.h
+	<stdbool.h>
+	"fila.h"
+	"fila_dengao_negado.h"
+
+1775847480 d:\ed_i\projeto_ed_2026\kk.h
+
+1776369944 d:\ed_i\projeto_ed_2026\fila_dengao_negado.h
+
+1776370248 source:d:\ed_i\projeto_ed_2026\fila_dengao_negado.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1775678554 source:c:\users\silve\onedrive\documentos\projeto_ed_2026\etl.c
+	"etl.h"
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1775676356 c:\users\silve\onedrive\documentos\projeto_ed_2026\etl.h
+	<stdbool.h>
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+
+1775674096 c:\users\silve\onedrive\documentos\projeto_ed_2026\stringers.h
+	<stdlib.h>
+
+1776396898 c:\users\silve\onedrive\documentos\projeto_ed_2026\fila.h
+	"stringers.h"
+	<stdbool.h>
+
+1775676078 c:\users\silve\onedrive\documentos\projeto_ed_2026\pilha.h
+	"stringers.h"
+	<stdbool.h>
+
+1775677670 source:c:\users\silve\onedrive\documentos\projeto_ed_2026\fila.c
+	"fila.h"
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+
+1776370248 source:c:\users\silve\onedrive\documentos\projeto_ed_2026\fila_dengao_negado.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1776397470 source:c:\users\silve\onedrive\documentos\projeto_ed_2026\hashishi.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	"hashishi.h"
+	"fila.h"
+	"stringers.h"
+	"fila_dengao_negado.h"
+
+1776396910 c:\users\silve\onedrive\documentos\projeto_ed_2026\hashishi.h
+	<stdbool.h>
+	"fila.h"
+	"fila_dengao_negado.h"
+
+1776396882 c:\users\silve\onedrive\documentos\projeto_ed_2026\fila_dengao_negado.h
+
+1776397526 source:c:\users\silve\onedrive\documentos\projeto_ed_2026\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fila.h"
+	"pilha.h"
+	"etl.h"
+	"hashishi.h"
+	"fila_dengao_negado.h"
+
+1775677708 source:c:\users\silve\onedrive\documentos\projeto_ed_2026\pilha.c
+	"pilha.h"
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+
+1775758986 source:c:\users\silve\onedrive\documentos\projeto_ed_2026\stringers.c
+	<string.h>
+	"stringers.h"
+

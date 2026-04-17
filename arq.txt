@@ -1,0 +1,11 @@
+NOME: Artur Vinícius Santos Silveira
+
+DIFERENÇA ENTRE ARQUIVO .COM E .EXE
+Uma das diferenças é que o .com é mais antigo que o .exe. 
+
+
+.COM: 
+Um espaço de 64kB era gerado para funcionar um .com. Nesse espaço, de baixo para cima é colocado o código, seguido da área de dados, a pilha e o heap(esse de cima para baixo). Pouco flexível e com estrutura mais simples.
+
+.EXE
+No .exe, os espaços são separados. A pilha tem um espaço de até 64kB, o heap tem um espaço de até 64kB, os dados tem um espaço de até 64kB e o código tem um espaço de até 64kB. Caso seja necessário, outros espaços podem ser alocados. O.exe é mais organizado que o .com, além de ser mais complexo.
