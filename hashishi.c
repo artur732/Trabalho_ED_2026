@@ -217,7 +217,6 @@ void passa_ao_big_vector(char **bv, Tabela *tab) {
 
     for(int i=0;i<TAMANHO_TABELA;i++) {
 
-
         NoHash *aux=tab->celula[i];
 
         while(aux!=NULL) {

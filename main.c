@@ -30,6 +30,11 @@ int main()
     getchar();
     printf("\n");
 
+    if(qtdDocumentos <= 0){
+        printf("ERRO: Voce deve inserir ao menos um documento!\n");
+        return 1;
+    }
+
     // Lê o caminho de cada um e adiciona a fila
     for(int i =0; i < qtdDocumentos; i++){
         // Recebe endereço do documento
@@ -71,7 +76,6 @@ int main()
             pushPilha(&historico, buffer);
             break;
         }
-
 
         ///ERRO  CORRIGIDIO--
         passa_da_fila_p_tabela(&palavrasDocumento, &tabelinha, &id_e_qdd[cont]);
@@ -128,7 +132,6 @@ int main()
     limparPilha(&historico);
 
     for(int i=1;i<=new_id;i++) {
-
         free(big_vector[i]);
     }
 

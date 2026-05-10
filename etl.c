@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
+#include <stdbool.h>
 
 #define PALAVRA_NAO_INCIADA -1
 
@@ -66,15 +67,30 @@ void tokenizacao(char *texto, Fila *saida, Pilha *hist){
     pushPilha(hist, "]");
 }
 
+void imprimeBits(char c){
+    for(int i = 7; i >= 0; i--){
+        printf("%d", (c>>i)&1);
+    }
+    printf("\n");
+}
+
 void etlLinha(char *texto, Fila *palavras, Pilha *historico){
     // Remove acentuação e deixa em caixa baixa
     int len = strlen(texto);
+
+    //printf("%s\n",texto);
     for(int i = 0; i < len; i++){
+        printf("%c %d\t",texto[i], texto[i]);
+        imprimeBits(texto[i]);
         // Deixa Minúsculo
         texto[i] = tolower(texto[i]);
 
         // Tira acentuação
-        texto[i] = removeAcentuacao(texto[i]);
+        int removeChars = removeAcentuacao(&texto[i], texto[i+1]);
+        for(int j = 1; j <= removeChars && i + j < len; j++){
+            shiftString(texto, i+j, len);
+            len--;
+        }
     }
 
     // adiciona log
