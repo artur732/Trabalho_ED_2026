@@ -40,12 +40,6 @@ void criaString(String *s, char *entrada){
     criaStringFaixa(s, entrada, 0, strlen(entrada));
 }
 
-bool imprimInt16(uint16_t num){
-    for(int i = 15; i >= 0; i--){
-        printf("%d", (num >> i)&1);
-    }
-    printf("\n");
-}
 
 int removeAcentuacao(char *caracter, char proxCaracter){
     // Tablea ASCII padrão
@@ -53,6 +47,7 @@ int removeAcentuacao(char *caracter, char proxCaracter){
         switch(*caracter){
             case '.': case ',': case ';': case '"': case '\n':
             case '!': case '?':
+            case '(': case ')': case '[': case ']': case '{': case '}':
                 *caracter = ' '; break;
         }
 

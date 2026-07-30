@@ -90,7 +90,7 @@ void printa_lidq(Noidq *l) {
 
     while(aux!=NULL) {
 
-        printf("%d|%d\t", aux->id, aux->qtdd);
+        printf("%d|%d -> ", aux->id, aux->qtdd);
         aux=aux->prox;
     }
 
@@ -105,5 +105,23 @@ void libera_lista_idq(Noidq **no) {
         *no=(*no)->prox;
         free(aux);
     }
+}
+
+int numero_de_aparicoes(int id, Noidq *lista) {
+
+    Noidq *temp = lista;
+
+    while(temp!=NULL) {
+
+        if(temp->id == id) {
+
+            return temp->qtdd;
+        }
+
+        temp=temp->prox;
+    }
+
+    return 0;
+
 }
 

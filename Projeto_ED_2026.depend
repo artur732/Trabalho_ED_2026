@@ -366,3 +366,352 @@
 	<string.h>
 	"stringers.h"
 
+1785185329 source:c:\users\silve\onedrive\desktop\trabalho_ed_2026-main\etl.c
+	"etl.h"
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdbool.h>
+
+1785185329 c:\users\silve\onedrive\desktop\trabalho_ed_2026-main\etl.h
+	<stdbool.h>
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+
+1785185329 c:\users\silve\onedrive\desktop\trabalho_ed_2026-main\stringers.h
+	<stdlib.h>
+	<stdbool.h>
+
+1785185329 c:\users\silve\onedrive\desktop\trabalho_ed_2026-main\fila.h
+	"stringers.h"
+	<stdbool.h>
+
+1785185329 c:\users\silve\onedrive\desktop\trabalho_ed_2026-main\pilha.h
+	"stringers.h"
+	<stdbool.h>
+
+1785185329 source:c:\users\silve\onedrive\desktop\trabalho_ed_2026-main\fila.c
+	"fila.h"
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+
+1785185329 source:c:\users\silve\onedrive\desktop\trabalho_ed_2026-main\fila_dengao_negado.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1785185329 source:c:\users\silve\onedrive\desktop\trabalho_ed_2026-main\hashishi.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	"hashishi.h"
+	"fila.h"
+	"stringers.h"
+	"fila_dengao_negado.h"
+
+1785185329 c:\users\silve\onedrive\desktop\trabalho_ed_2026-main\hashishi.h
+	<stdbool.h>
+	"fila.h"
+	"fila_dengao_negado.h"
+
+1785185329 c:\users\silve\onedrive\desktop\trabalho_ed_2026-main\fila_dengao_negado.h
+
+1785185425 source:c:\users\silve\onedrive\desktop\trabalho_ed_2026-main\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fila.h"
+	"pilha.h"
+	"etl.h"
+	"hashishi.h"
+	"fila_dengao_negado.h"
+
+1785185329 source:c:\users\silve\onedrive\desktop\trabalho_ed_2026-main\pilha.c
+	"pilha.h"
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+
+1785185329 source:c:\users\silve\onedrive\desktop\trabalho_ed_2026-main\stringers.c
+	<string.h>
+	"stringers.h"
+	<stdint.h>
+	<stdio.h>
+
+1785187765 source:c:\users\silve\onedrive\desktop\trabalho_ed_2026-main\arve.c
+	"arve.h"
+
+1785193620 c:\users\silve\onedrive\desktop\trabalho_ed_2026-main\arve.h
+	<stdlib.h>
+	<stdio.h>
+
+1785187766 source:g:\ed_i\trabalho_ed_2026-main - copia\arve.c
+	"arve.h"
+
+1785193622 g:\ed_i\trabalho_ed_2026-main - copia\arve.h
+	<stdlib.h>
+	<stdio.h>
+
+1785185330 source:g:\ed_i\trabalho_ed_2026-main - copia\etl.c
+	"etl.h"
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdbool.h>
+
+1785185330 g:\ed_i\trabalho_ed_2026-main - copia\etl.h
+	<stdbool.h>
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+
+1785185330 g:\ed_i\trabalho_ed_2026-main - copia\stringers.h
+	<stdlib.h>
+	<stdbool.h>
+
+1785185330 g:\ed_i\trabalho_ed_2026-main - copia\fila.h
+	"stringers.h"
+	<stdbool.h>
+
+1785185330 g:\ed_i\trabalho_ed_2026-main - copia\pilha.h
+	"stringers.h"
+	<stdbool.h>
+
+1785185330 source:g:\ed_i\trabalho_ed_2026-main - copia\fila.c
+	"fila.h"
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+
+1785185330 source:g:\ed_i\trabalho_ed_2026-main - copia\fila_dengao_negado.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1785185330 source:g:\ed_i\trabalho_ed_2026-main - copia\hashishi.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	"hashishi.h"
+	"fila.h"
+	"stringers.h"
+	"fila_dengao_negado.h"
+
+1785185330 g:\ed_i\trabalho_ed_2026-main - copia\hashishi.h
+	<stdbool.h>
+	"fila.h"
+	"fila_dengao_negado.h"
+
+1785185330 g:\ed_i\trabalho_ed_2026-main - copia\fila_dengao_negado.h
+
+1785348504 source:g:\ed_i\trabalho_ed_2026-main - copia\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fila.h"
+	"pilha.h"
+	"etl.h"
+	"hashishi.h"
+	"fila_dengao_negado.h"
+
+1785185330 source:g:\ed_i\trabalho_ed_2026-main - copia\pilha.c
+	"pilha.h"
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+
+1785185330 source:g:\ed_i\trabalho_ed_2026-main - copia\stringers.c
+	<string.h>
+	"stringers.h"
+	<stdint.h>
+	<stdio.h>
+
+1785187766 source:c:\users\filipe.schausst_unes\downloads\trabalho_ed_2026-main - copia\arve.c
+	"arve.h"
+
+1785349256 c:\users\filipe.schausst_unes\downloads\trabalho_ed_2026-main - copia\arve.h
+	<stdlib.h>
+	<stdio.h>
+
+1785355077 source:c:\users\filipe.schausst_unes\downloads\trabalho_ed_2026-main - copia\etl.c
+	"etl.h"
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdbool.h>
+	<stdlib.h>
+
+1785185330 c:\users\filipe.schausst_unes\downloads\trabalho_ed_2026-main - copia\etl.h
+	<stdbool.h>
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+
+1785354770 c:\users\filipe.schausst_unes\downloads\trabalho_ed_2026-main - copia\stringers.h
+	<stdlib.h>
+	<stdbool.h>
+
+1785354794 c:\users\filipe.schausst_unes\downloads\trabalho_ed_2026-main - copia\fila.h
+	"stringers.h"
+	<stdbool.h>
+
+1785185330 c:\users\filipe.schausst_unes\downloads\trabalho_ed_2026-main - copia\pilha.h
+	"stringers.h"
+	<stdbool.h>
+
+1785355868 source:c:\users\filipe.schausst_unes\downloads\trabalho_ed_2026-main - copia\fila.c
+	"fila.h"
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+
+1785355186 source:c:\users\filipe.schausst_unes\downloads\trabalho_ed_2026-main - copia\fila_dengao_negado.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1785355227 source:c:\users\filipe.schausst_unes\downloads\trabalho_ed_2026-main - copia\hashishi.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	"hashishi.h"
+	"fila.h"
+	"stringers.h"
+	"fila_dengao_negado.h"
+
+1785185330 c:\users\filipe.schausst_unes\downloads\trabalho_ed_2026-main - copia\hashishi.h
+	<stdbool.h>
+	"fila.h"
+	"fila_dengao_negado.h"
+
+1785185330 c:\users\filipe.schausst_unes\downloads\trabalho_ed_2026-main - copia\fila_dengao_negado.h
+
+1785185330 source:c:\users\filipe.schausst_unes\downloads\trabalho_ed_2026-main - copia\pilha.c
+	"pilha.h"
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+
+1785355328 source:c:\users\filipe.schausst_unes\downloads\trabalho_ed_2026-main - copia\stringers.c
+	<string.h>
+	"stringers.h"
+	<stdint.h>
+	<stdio.h>
+
+1785354825 source:c:\users\filipe.schausst_unes\downloads\trabalho_ed_2026-main - copia\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fila.h"
+	"pilha.h"
+	"etl.h"
+	"hashishi.h"
+	"fila_dengao_negado.h"
+
+1785419030 source:c:\users\silve\onedrive\desktop\trabalho_ed_2026\arve.c
+	"arve.h"
+
+1785417192 c:\users\silve\onedrive\desktop\trabalho_ed_2026\arve.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1785410101 source:c:\users\silve\onedrive\desktop\trabalho_ed_2026\etl.c
+	"etl.h"
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdbool.h>
+	<stdlib.h>
+
+1785409691 c:\users\silve\onedrive\desktop\trabalho_ed_2026\etl.h
+	<stdbool.h>
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+
+1785409691 c:\users\silve\onedrive\desktop\trabalho_ed_2026\stringers.h
+	<stdlib.h>
+	<stdbool.h>
+
+1785409691 c:\users\silve\onedrive\desktop\trabalho_ed_2026\fila.h
+	"stringers.h"
+	<stdbool.h>
+
+1785409691 c:\users\silve\onedrive\desktop\trabalho_ed_2026\pilha.h
+	"stringers.h"
+	<stdbool.h>
+
+1785409691 source:c:\users\silve\onedrive\desktop\trabalho_ed_2026\fila.c
+	"fila.h"
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+
+1785412874 source:c:\users\silve\onedrive\desktop\trabalho_ed_2026\fila_dengao_negado.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1785409691 source:c:\users\silve\onedrive\desktop\trabalho_ed_2026\hashishi.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	"hashishi.h"
+	"fila.h"
+	"stringers.h"
+	"fila_dengao_negado.h"
+
+1785409691 c:\users\silve\onedrive\desktop\trabalho_ed_2026\hashishi.h
+	<stdbool.h>
+	"fila.h"
+	"fila_dengao_negado.h"
+
+1785412897 c:\users\silve\onedrive\desktop\trabalho_ed_2026\fila_dengao_negado.h
+
+1785418625 source:c:\users\silve\onedrive\desktop\trabalho_ed_2026\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"fila.h"
+	"pilha.h"
+	"etl.h"
+	"hashishi.h"
+	"fila_dengao_negado.h"
+	"arve.h"
+
+1785409691 source:c:\users\silve\onedrive\desktop\trabalho_ed_2026\pilha.c
+	"pilha.h"
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+
+1785409691 source:c:\users\silve\onedrive\desktop\trabalho_ed_2026\stringers.c
+	<string.h>
+	"stringers.h"
+	<stdint.h>
+	<stdio.h>
+

@@ -18,3 +18,5 @@ void atualiza_lista_idq(Noidq **l, int ID);
 void printa_lidq(Noidq *l);
 
 void libera_lista_idq(Noidq **no);
+
+int numero_de_aparicoes(int id, Noidq *lista);

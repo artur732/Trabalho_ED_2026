@@ -6,7 +6,7 @@
 #define MAX_STRING 50
 
 typedef struct{
-    unsigned char texto[MAX_STRING];
+    char texto[MAX_STRING];
     size_t tamanho;
 }String;
 

@@ -192,7 +192,7 @@ void printa_lhash(NoHash *l) {
 
     while(aux!=NULL) {
 
-        printf("%s\t", aux->palavra);
+        printf("%s -> ", aux->palavra);
         aux=aux->prox;
     }
 

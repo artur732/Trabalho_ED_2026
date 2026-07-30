@@ -13,6 +13,7 @@ typedef struct NoFila{
 typedef struct{
     NoFila *comeco;
     NoFila *fim;
+    int size;
 }Fila;
 
 void initFila(Fila *f);
@@ -21,3 +22,4 @@ bool removerFila(Fila *f, String *valor);
 void limparFila(Fila *f);
 bool lerFilaComeco(Fila *f, String *valor);
 bool lerFilaFim(Fila *f, String *valor);
+bool lerFilaPos(Fila *f, int pos ,String *valor);

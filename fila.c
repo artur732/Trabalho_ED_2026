@@ -7,6 +7,7 @@
 void initFila(Fila *f){
     f->comeco = NULL;
     f->fim = NULL;
+    f->size = 0;
 }
 
 // Adiciona um item a fila
@@ -19,6 +20,8 @@ bool addFila(Fila *f, char* entrada){
     // Popula os campos
     criaString(&nova->item, entrada);
     nova->prox = NULL;
+
+    f->size++;
 
     // Caso fila esteja vazia
     if(!f->fim){
@@ -53,6 +56,8 @@ bool removerFila(Fila *f, String *valor){
 
     // Limpa memória
     free(aRemover);
+
+    f->size--;
 
     return true;
 }
@@ -95,4 +100,21 @@ void limparFila(Fila *f){
 
     f->comeco = NULL;
     f->fim = NULL;
+}
+
+
+bool lerFilaPos(Fila *f, int pos ,String *valor){
+    int i = 0;
+    NoFila *atual = f->comeco;
+    while(atual){
+        if(i == pos){
+            *valor = atual->item;
+            return true;
+        }
+
+        atual = atual->prox;
+        i++;
+    }
+
+    return false;
 }
