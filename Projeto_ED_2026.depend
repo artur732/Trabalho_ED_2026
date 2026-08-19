@@ -715,3 +715,273 @@
 	<stdint.h>
 	<stdio.h>
 
+1785419032 source:g:\ed_i\apresenta플o_trabalho\arve.c
+	"arve.h"
+
+1785417194 g:\ed_i\apresenta플o_trabalho\arve.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1785410102 source:g:\ed_i\apresenta플o_trabalho\etl.c
+	"etl.h"
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdbool.h>
+	<stdlib.h>
+
+1785409692 g:\ed_i\apresenta플o_trabalho\etl.h
+	<stdbool.h>
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+
+1785409692 g:\ed_i\apresenta플o_trabalho\stringers.h
+	<stdlib.h>
+	<stdbool.h>
+
+1785409692 g:\ed_i\apresenta플o_trabalho\fila.h
+	"stringers.h"
+	<stdbool.h>
+
+1785409692 g:\ed_i\apresenta플o_trabalho\pilha.h
+	"stringers.h"
+	<stdbool.h>
+
+1785409692 source:g:\ed_i\apresenta플o_trabalho\fila.c
+	"fila.h"
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+
+1785412876 source:g:\ed_i\apresenta플o_trabalho\fila_dengao_negado.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1786379564 source:g:\ed_i\apresenta플o_trabalho\hashishi.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	"hashishi.h"
+	"fila.h"
+	"stringers.h"
+	"fila_dengao_negado.h"
+
+1786379578 g:\ed_i\apresenta플o_trabalho\hashishi.h
+	<stdbool.h>
+	"fila.h"
+	"fila_dengao_negado.h"
+
+1785412898 g:\ed_i\apresenta플o_trabalho\fila_dengao_negado.h
+
+1786379912 source:g:\ed_i\apresenta플o_trabalho\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"fila.h"
+	"pilha.h"
+	"etl.h"
+	"hashishi.h"
+	"fila_dengao_negado.h"
+	"arve.h"
+
+1785409692 source:g:\ed_i\apresenta플o_trabalho\pilha.c
+	"pilha.h"
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+
+1785409692 source:g:\ed_i\apresenta플o_trabalho\stringers.c
+	<string.h>
+	"stringers.h"
+	<stdint.h>
+	<stdio.h>
+
+1785419032 source:h:\ed_i\apresenta플o_trabalho\arve.c
+	"arve.h"
+
+1785417194 h:\ed_i\apresenta플o_trabalho\arve.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1785410102 source:h:\ed_i\apresenta플o_trabalho\etl.c
+	"etl.h"
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdbool.h>
+	<stdlib.h>
+
+1785409692 h:\ed_i\apresenta플o_trabalho\etl.h
+	<stdbool.h>
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+
+1785409692 h:\ed_i\apresenta플o_trabalho\stringers.h
+	<stdlib.h>
+	<stdbool.h>
+
+1785409692 h:\ed_i\apresenta플o_trabalho\fila.h
+	"stringers.h"
+	<stdbool.h>
+
+1785409692 h:\ed_i\apresenta플o_trabalho\pilha.h
+	"stringers.h"
+	<stdbool.h>
+
+1785409692 source:h:\ed_i\apresenta플o_trabalho\fila.c
+	"fila.h"
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+
+1785412876 source:h:\ed_i\apresenta플o_trabalho\fila_dengao_negado.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1786379564 source:h:\ed_i\apresenta플o_trabalho\hashishi.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	"hashishi.h"
+	"fila.h"
+	"stringers.h"
+	"fila_dengao_negado.h"
+
+1786379578 h:\ed_i\apresenta플o_trabalho\hashishi.h
+	<stdbool.h>
+	"fila.h"
+	"fila_dengao_negado.h"
+
+1785412898 h:\ed_i\apresenta플o_trabalho\fila_dengao_negado.h
+
+1786386432 source:h:\ed_i\apresenta플o_trabalho\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"fila.h"
+	"pilha.h"
+	"etl.h"
+	"hashishi.h"
+	"fila_dengao_negado.h"
+	"arve.h"
+
+1785409692 source:h:\ed_i\apresenta플o_trabalho\pilha.c
+	"pilha.h"
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+
+1785409692 source:h:\ed_i\apresenta플o_trabalho\stringers.c
+	<string.h>
+	"stringers.h"
+	<stdint.h>
+	<stdio.h>
+
+1785419032 source:d:\ed_i\apresenta플o_trabalho\arve.c
+	"arve.h"
+
+1785417194 d:\ed_i\apresenta플o_trabalho\arve.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1785410102 source:d:\ed_i\apresenta플o_trabalho\etl.c
+	"etl.h"
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdbool.h>
+	<stdlib.h>
+
+1785409692 d:\ed_i\apresenta플o_trabalho\etl.h
+	<stdbool.h>
+	"stringers.h"
+	"fila.h"
+	"pilha.h"
+
+1785409692 d:\ed_i\apresenta플o_trabalho\stringers.h
+	<stdlib.h>
+	<stdbool.h>
+
+1785409692 d:\ed_i\apresenta플o_trabalho\fila.h
+	"stringers.h"
+	<stdbool.h>
+
+1785409692 d:\ed_i\apresenta플o_trabalho\pilha.h
+	"stringers.h"
+	<stdbool.h>
+
+1785409692 source:d:\ed_i\apresenta플o_trabalho\fila.c
+	"fila.h"
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+
+1785412876 source:d:\ed_i\apresenta플o_trabalho\fila_dengao_negado.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"fila.h"
+
+1786379564 source:d:\ed_i\apresenta플o_trabalho\hashishi.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	"hashishi.h"
+	"fila.h"
+	"stringers.h"
+	"fila_dengao_negado.h"
+
+1786379578 d:\ed_i\apresenta플o_trabalho\hashishi.h
+	<stdbool.h>
+	"fila.h"
+	"fila_dengao_negado.h"
+
+1785412898 d:\ed_i\apresenta플o_trabalho\fila_dengao_negado.h
+
+1786386432 source:d:\ed_i\apresenta플o_trabalho\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"fila.h"
+	"pilha.h"
+	"etl.h"
+	"hashishi.h"
+	"fila_dengao_negado.h"
+	"arve.h"
+
+1785409692 source:d:\ed_i\apresenta플o_trabalho\pilha.c
+	"pilha.h"
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+
+1785409692 source:d:\ed_i\apresenta플o_trabalho\stringers.c
+	<string.h>
+	"stringers.h"
+	<stdint.h>
+	<stdio.h>
+

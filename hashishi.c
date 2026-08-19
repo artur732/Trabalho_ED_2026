@@ -67,30 +67,6 @@ int hash(char *palavra) {
 //função que insere ordenadamente por ID's
 void insere_ordenado(NoHash **l, NoHash *ins) {
 
-    /*if(*l==NULL) {
-
-        *l=ins;
-    } else {
-
-        NoHash *aux=*l;
-        NoHash *ant;
-
-        while(aux->prox!=NULL && ins->id > aux->id) {
-
-            ant=aux;
-            aux=aux->prox;
-        }
-
-        if(ins->id < aux->id) {
-
-            ant->prox=ins;
-            ins->prox=aux;
-        } else {
-
-            aux->prox=ins;
-        }
-    }*/
-
     ins->prox=*l;
     *l=ins;
 }

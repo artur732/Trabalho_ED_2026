@@ -53,7 +53,7 @@ int main()
     fgets(palavras_buscadas_usuario, 100, stdin);
 
     // Lê cada caminho da fila
-    printf("\n");
+
     String arquivoAtual;
 
     ///criar três filas (ID + qtdd) e criar tabela hash
@@ -80,35 +80,26 @@ int main()
     int cont=0;
     while(removerFila(&documentos, &arquivoAtual)){
         ///criar contzinho, pra poder colocar os esquemas nos lugares certos
-        // Lista com plavras
+        // Lista com palavras
         Fila palavrasDocumento;
         initFila(&palavrasDocumento);
 
         // Faz o ETL
         if(etlArquivo(arquivoAtual, &palavrasDocumento, &historico) == false){
             sprintf(buffer, "Erro ao abrir arquivo %s\n", arquivoAtual.texto);
-            //printf(buffer);
+
             pushPilha(&historico, buffer);
             break;
         }
 
-        ///ERRO  CORRIGIDIO--
         passa_da_fila_p_tabela(&palavrasDocumento, &tabelinha, &id_e_qdd[cont]);
 
-        printa_hash(tabelinha);
-        printf("\n\n");
-        printa_lidq(id_e_qdd[cont]);
+        printa_hash(tabelinha);///--------------------------------
+        printf("\n\n");///--------------------------------
+        printa_lidq(id_e_qdd[cont]);///--------------------------------
 
 
         // TODO Artur: Parte B
-
-        // Intera por cada palavra
-        String palavra;
-        //printf("\nPALAVRAS\n");
-        while(removerFila(&palavrasDocumento, &palavra)){
-            // DEBUG: Só para testa, pode remover depois
-            //printf("%s\n", palavra.texto);
-        }
 
         // Loop pelas palavras de entrada
         String palavra_entrada;
@@ -132,37 +123,36 @@ int main()
         inserir_na_arvore(&abb, cont, score, arquivoAtual.texto);
 
         // Imprime nome do arquivo
-        printf("Arquivo: %s\n", arquivoAtual.texto);
+        printf("Arquivo: %s\n", arquivoAtual.texto);///--------------------------------
 
         for(int i = 0; i < palavras_entrada_usuario.size; i++){
             // Lê a palavra na posição i da fila
             lerFilaPos(&palavras_entrada_usuario, i, &palavra_entrada);
             // Imprime a palavra
-            printf("%s\n", palavra_entrada.texto);
+            printf("%s\n", palavra_entrada.texto);///--------------------------------
         }
 
         limparFila(&palavrasDocumento);
         cont++;
     }
-    ///depois de todo esse pega fogo, preciso criar o big master vector, pra colocar todos os valores nele ainda
-    ///(safado)
 
 
-    char *big_vector[new_id+1];//=malloc(new_id*(sizeof(char*)));
+
+    char *big_vector[new_id+1];
 
     for(int i=0;i<=new_id;i++) {
         big_vector[i]=NULL;
     }
     passa_ao_big_vector(big_vector, &tabelinha);
 
-    printf("Vetor com as palavras: \n");
+    printf("Vetor com as palavras: \n");///--------------------------------
     for(int i=0;i<=new_id;i++) {
 
         if(big_vector[i]!=NULL) {
-            printf("[%d]- %s\t",i ,  big_vector[i]);
+            printf("[%d]- %s\t",i ,  big_vector[i]);///--------------------------------
         }
     }
-
+    printf("\n\n");
     printa_relevancias(abb);
 
     // TODO: Parte C
@@ -189,3 +179,4 @@ int main()
 
     return 0;
 }
+t
